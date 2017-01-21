@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ArduProMiniTKB)(type Legacy)(uri "$(KIPRJMOD)/components/ArduProMiniTKB.mod")(options "")(descr ""))
+  (lib (name components)(type KiCad)(uri "$(KIPRJMOD)/components.pretty")(options "")(descr ""))
+)

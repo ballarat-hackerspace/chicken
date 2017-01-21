@@ -1,0 +1,379 @@
+Cmp-Mod V01 Created by PcbNew   date = 3/10/2016 8:00:57 PM
+
+BeginCmp
+TimeStamp = 57A9F951
+Path = /57A8735D
+Reference = K6;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AEA2F7
+Path = /578360F9
+Reference = U1;
+ValeurCmp = ARDUPROMINI;
+IdModule  = components:ArduProMini-6;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9F91D
+Path = /57A84ACD
+Reference = K2;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9F944
+Path = /57A87375
+Reference = K5;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B47342
+Path = 
+Reference = MH1;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B4733B
+Path = 
+Reference = MH3;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B47334
+Path = 
+Reference = MH4;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9F92A
+Path = /57A87369
+Reference = K3;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D442
+Path = /57A87318
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D217
+Path = /577B7E76
+Reference = D1;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D22B
+Path = /577B7F4A
+Reference = D2;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D23F
+Path = /57A8732A
+Reference = D3;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D253
+Path = /577B7EEC
+Reference = D4;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D267
+Path = /57A87324
+Reference = D5;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D27B
+Path = /57A87330
+Reference = D6;
+ValeurCmp = D_Small;
+IdModule  = Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D292
+Path = /57A916ED
+Reference = P1;
+ValeurCmp = CONN_01X03;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D2A9
+Path = /57A9AFDE
+Reference = P2;
+ValeurCmp = CONN_01X03;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D2C0
+Path = /57A9B2A0
+Reference = P3;
+ValeurCmp = CONN_01X03;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-3pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D2D4
+Path = /57A8DFC3
+Reference = P4;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D36C
+Path = /57AA8B04
+Reference = Q1;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D37A
+Path = /57AA7792
+Reference = Q2;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D388
+Path = /57AA7B60
+Reference = Q3;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D396
+Path = /57AA8BD5
+Reference = Q4;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3A4
+Path = /57AA7CE9
+Reference = Q5;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3B2
+Path = /57AA7C26
+Reference = Q6;
+ValeurCmp = Q_NPN_CBE;
+IdModule  = TO_SOT_Packages_THT:TO-92_Molded_Narrow;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3C2
+Path = /57A9977C
+Reference = R1;
+ValeurCmp = 2k2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3D2
+Path = /57A9AFF1
+Reference = R2;
+ValeurCmp = 2k2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3E2
+Path = /57A9B2B2
+Reference = R3;
+ValeurCmp = 2k2;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D3F2
+Path = /57A9987B
+Reference = R4;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D402
+Path = /57A9AFF7
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D412
+Path = /57A9B2B8
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D422
+Path = /577B7D3C
+Reference = R7;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D432
+Path = /577B7E26
+Reference = R8;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D452
+Path = /577B7DBB
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D462
+Path = /57A87312
+Reference = R11;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9D472
+Path = /57A8731E
+Reference = R12;
+ValeurCmp = 1k;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM10mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9F910
+Path = /57A85677
+Reference = K1;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9F937
+Path = /57A84D55
+Reference = K4;
+ValeurCmp = RELAY_SPDT;
+IdModule  = components:RELAY_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FED0
+Path = /57AB238E
+Reference = P5;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FEE3
+Path = /57AB255D
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FEF6
+Path = /57AB26F2
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FF09
+Path = /57AB27CF
+Reference = P9;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FF1C
+Path = /57AB2497
+Reference = P10;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57A9FF2F
+Path = /57AB2622
+Reference = P8;
+ValeurCmp = CONN_01X02;
+IdModule  = Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol;
+EndCmp
+
+BeginCmp
+TimeStamp = 57AA62BC
+Path = /5783624B
+Reference = U2;
+ValeurCmp = SPITFTSD;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x09;
+EndCmp
+
+BeginCmp
+TimeStamp = 57B47331
+Path = 
+Reference = MH2;
+ValeurCmp = MountingHole_3mm;
+IdModule  = Mounting_Holes:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57F20CCA
+Path = /57F215AD
+Reference = U3;
+ValeurCmp = LM1084IT-3.3/NOPB;
+IdModule  = TO-220;
+EndCmp
+
+EndListe
