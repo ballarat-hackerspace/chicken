@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PCB_NAME=${1:-"lca-badge"}
+PCB_NAME=${1:-"chicken"}
 
 function _error {
   _msg=${1:-"An error occured."}

@@ -609,12 +609,6 @@ Connection ~ 13100 3750
 Wire Wire Line
 	12900 3950 13100 3950
 Connection ~ 13100 3950
-Wire Wire Line
-	13900 1900 14050 1900
-Wire Wire Line
-	13900 2000 14050 2000
-Wire Wire Line
-	14050 2100 13900 2100
 Text Label 2500 3250 0    60   ~ 0
 CH1_IN
 $Comp
@@ -956,18 +950,18 @@ F 1 "CONN_01X02" V 12400 2050 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 12300 2050 50  0001 C CNN
 F 3 "" H 12300 2050 50  0000 C CNN
 	1    12300 2050
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P10
+L CONN_01X02 P8
 U 1 1 57AB2497
-P 14250 2050
-F 0 "P10" H 14250 2200 50  0000 C CNN
-F 1 "CONN_01X02" V 14350 2050 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14250 2050 50  0001 C CNN
-F 3 "" H 14250 2050 50  0000 C CNN
-	1    14250 2050
-	1    0    0    1   
+P 14100 2050
+F 0 "P8" H 14100 2200 50  0000 C CNN
+F 1 "CONN_01X02" V 14200 2050 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14100 2050 50  0001 C CNN
+F 3 "" H 14100 2050 50  0000 C CNN
+	1    14100 2050
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P6
@@ -978,18 +972,18 @@ F 1 "CONN_01X02" V 12400 3650 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 12300 3650 50  0001 C CNN
 F 3 "" H 12300 3650 50  0000 C CNN
 	1    12300 3650
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P8
+L CONN_01X02 P9
 U 1 1 57AB2622
 P 14100 3650
-F 0 "P8" H 14100 3800 50  0000 C CNN
+F 0 "P9" H 14100 3800 50  0000 C CNN
 F 1 "CONN_01X02" V 14200 3650 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14100 3650 50  0001 C CNN
 F 3 "" H 14100 3650 50  0000 C CNN
 	1    14100 3650
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
 L CONN_01X02 P7
@@ -1000,21 +994,21 @@ F 1 "CONN_01X02" V 12400 5300 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 12300 5300 50  0001 C CNN
 F 3 "" H 12300 5300 50  0000 C CNN
 	1    12300 5300
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P9
+L CONN_01X02 P10
 U 1 1 57AB27CF
 P 14100 5300
-F 0 "P9" H 14100 5450 50  0000 C CNN
+F 0 "P10" H 14100 5450 50  0000 C CNN
 F 1 "CONN_01X02" V 14200 5300 50  0000 C CNN
 F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 14100 5300 50  0001 C CNN
 F 3 "" H 14100 5300 50  0000 C CNN
 	1    14100 5300
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 NoConn ~ 12100 1900
-NoConn ~ 14050 1900
+NoConn ~ 13900 1900
 NoConn ~ 12100 3500
 NoConn ~ 13900 3500
 NoConn ~ 12100 5150
