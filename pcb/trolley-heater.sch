@@ -515,13 +515,13 @@ CS
 $Comp
 L CONN_01X02 P4
 U 1 1 57A8DFC3
-P 6100 2850
-F 0 "P4" H 6100 3000 50  0000 C CNN
-F 1 "CONN_01X02" V 6200 2850 50  0000 C CNN
-F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 6100 2850 50  0001 C CNN
-F 3 "" H 6100 2850 50  0000 C CNN
-	1    6100 2850
-	-1   0    0    -1  
+P 5400 2850
+F 0 "P4" H 5400 3000 50  0000 C CNN
+F 1 "CONN_01X02" V 5500 2850 50  0000 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_MKDS1.5-2pol" H 5400 2850 50  0001 C CNN
+F 3 "" H 5400 2850 50  0000 C CNN
+	1    5400 2850
+	-1   0    0    1   
 $EndComp
 $Comp
 L GNDREF #PWR017
@@ -639,7 +639,7 @@ U 1 1 57A9977C
 P 2100 3500
 F 0 "R1" V 2180 3500 50  0000 C CNN
 F 1 "2k2" V 2100 3500 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2030 3500 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2030 3500 50  0001 C CNN
 F 3 "" H 2100 3500 50  0000 C CNN
 	1    2100 3500
 	-1   0    0    -1  
@@ -650,7 +650,7 @@ U 1 1 57A9987B
 P 2350 3250
 F 0 "R4" V 2430 3250 50  0000 C CNN
 F 1 "1k" V 2350 3250 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2280 3250 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2280 3250 50  0001 C CNN
 F 3 "" H 2350 3250 50  0000 C CNN
 	1    2350 3250
 	0    1    -1   0   
@@ -722,7 +722,7 @@ U 1 1 57A9AFF1
 P 2100 4700
 F 0 "R2" V 2180 4700 50  0000 C CNN
 F 1 "2k2" V 2100 4700 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2030 4700 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2030 4700 50  0001 C CNN
 F 3 "" H 2100 4700 50  0000 C CNN
 	1    2100 4700
 	-1   0    0    -1  
@@ -733,7 +733,7 @@ U 1 1 57A9AFF7
 P 2350 4450
 F 0 "R5" V 2430 4450 50  0000 C CNN
 F 1 "1k" V 2350 4450 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2280 4450 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2280 4450 50  0001 C CNN
 F 3 "" H 2350 4450 50  0000 C CNN
 	1    2350 4450
 	0    1    -1   0   
@@ -801,7 +801,7 @@ U 1 1 57A9B2B2
 P 2100 5900
 F 0 "R3" V 2180 5900 50  0000 C CNN
 F 1 "2k2" V 2100 5900 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2030 5900 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2030 5900 50  0001 C CNN
 F 3 "" H 2100 5900 50  0000 C CNN
 	1    2100 5900
 	-1   0    0    -1  
@@ -812,7 +812,7 @@ U 1 1 57A9B2B8
 P 2350 5650
 F 0 "R6" V 2430 5650 50  0000 C CNN
 F 1 "1k" V 2350 5650 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 2280 5650 50  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" V 2280 5650 50  0001 C CNN
 F 3 "" H 2350 5650 50  0000 C CNN
 	1    2350 5650
 	0    1    -1   0   
@@ -1067,7 +1067,7 @@ F 1 "HLK-PM01" H 6900 3150 60  0000 C CNN
 F 2 "components:HLK-PM01" H 6900 2850 60  0001 C CNN
 F 3 "http://www.hlktech.net/product_detail.php?ProId=54" H 6900 2850 60  0001 C CNN
 	1    6900 2850
-	1    0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7300 2950 7400 2950
@@ -1077,13 +1077,43 @@ Wire Wire Line
 	7300 2750 7500 2750
 Wire Wire Line
 	7400 2750 7400 2650
-Wire Wire Line
-	6300 2800 6300 2750
-Wire Wire Line
-	6300 2750 6500 2750
-Wire Wire Line
-	6300 2900 6300 2950
-Wire Wire Line
-	6300 2950 6500 2950
 Connection ~ 7400 2750
+$Comp
+L VR V1
+U 1 1 5886B76F
+P 6200 2850
+F 0 "V1" V 6260 2804 50  0000 C TNN
+F 1 "275V" V 6200 2850 50  0000 C CNN
+F 2 "Varistors:RV_Disc_D12_W5_P7.5" H 6200 2850 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1899727.pdf" H 6200 2850 50  0001 C CNN
+	1    6200 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L F_Small F1
+U 1 1 5886B7DE
+P 5900 2600
+F 0 "F1" H 5860 2660 50  0000 L CNN
+F 1 "0.8A" H 5780 2540 50  0000 L CNN
+F 2 "components:Fuse_Radial" H 5900 2600 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/1662441.pdf" H 5900 2600 50  0001 C CNN
+	1    5900 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2600 6500 2750
+Wire Wire Line
+	6000 2600 6500 2600
+Wire Wire Line
+	6500 3100 6500 2950
+Wire Wire Line
+	5600 3100 6500 3100
+Connection ~ 6200 2600
+Wire Wire Line
+	5600 2800 5600 2600
+Wire Wire Line
+	5600 2600 5800 2600
+Wire Wire Line
+	5600 3100 5600 2900
+Connection ~ 6200 3100
 $EndSCHEMATC
